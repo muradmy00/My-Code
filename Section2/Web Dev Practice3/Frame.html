@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Fream</title>
+
+    <style>
+
+        h1{
+            text-align: center;
+        }
+        .photo_albam{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo_frame{
+            height: 200px;
+            width: 200px;
+            border: 10px solid goldenrod;
+            border-radius: 10px;
+            margin: 10px; 
+            overflow: hidden;
+            position: relative;
+        }
+
+        .photo_frame .photo img{
+            width: 100%;
+        }
+
+        .photo_detail{
+            position: absolute;
+            display: none;
+            height: 200px;
+            width: 200px;
+            top: 0;
+        }
+
+        .photo_frame:hover .photo_detail {
+            display: block;
+            background-color: black;
+        }
+
+        .photo_frame:hover .photo img{
+            transform: scale(1.2);
+            transition: transform 3s ease;
+        }
+
+        .photo_frame:hover .photo_detail h3{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+
+        .photo_frame:hover .photo_detail p{
+            color: rgb(234, 234, 234);
+            
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+        <h1>My Photo Book</h1>
+
+        <Section class="photo_albam">
+
+            <div class="photo_frame">
+                
+                <div class="photo">
+                    <img src="CSS/food.png" alt="image of food">
+                </div>
+
+                <div class="photo_detail">
+                <h3>Healthy Food</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, blanditiis.</p>
+                </div>
+
+            </div>
+
+
+
+               <div class="photo_frame">
+                
+                <div class="photo">
+                    <img src="CSS/food.png" alt="image of food">
+                </div>
+
+                <div class="photo_detail">
+                <h3>Healthy Food</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, blanditiis.</p>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="photo_frame">
+            
+                <div class="photo">
+                    <img src="CSS/food.png" alt="image of food">
+                </div>
+            
+                <div class="photo_detail">
+                    <h3>Healthy Food</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, blanditiis.</p>
+                </div>
+            
+            </div>
+
+
+            <div class="photo_frame">
+            
+                <div class="photo">
+                    <img src="CSS/food.png" alt="image of food">
+                </div>
+            
+                <div class="photo_detail">
+                    <h3>Healthy Food</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, blanditiis.</p>
+                </div>
+            
+            </div>
+
+
+
+            <div class="photo_frame">
+            
+                <div class="photo">
+                    <img src="CSS/food.png" alt="image of food">
+                </div>
+            
+                <div class="photo_detail">
+                    <h3>Healthy Food</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, blanditiis.</p>
+                </div>
+            
+            </div>
+
+
+
+
+            <div class="photo_frame">
+            
+                <div class="photo">
+                    <img src="CSS/food.png" alt="image of food">
+                </div>
+            
+                <div class="photo_detail">
+                    <h3>Healthy Food</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, blanditiis.</p>
+                </div>
+            
+            </div>
+
+        </Section>
+    
+</body>
+</html>

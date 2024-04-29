@@ -1,0 +1,40 @@
+nav{
+   background-color: cadetblue; 
+   font-size: 20px;
+   line-height: 20px;
+   height: 70px;
+   
+}
+
+nav li{
+    list-style: none;
+    padding: 10px;
+    
+}
+
+li{
+    cursor: pointer;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+nav>ul>li{
+    float: left;
+    
+    
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    padding: 0;
+}
+
+nav>ul>li:hover>ul{
+    display: block;
+}

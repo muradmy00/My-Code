@@ -1,0 +1,80 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box_1{
+    background-color: #333;
+    color: #fff;
+    border: 3px solid red;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.box_2{
+    border: 3px dotted gray;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.box_1 h1{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Eto gula font daoyar karon holo primary font hisebe Verdana kaj korbe..kono technical problem er jonno jodi na pare dekhate tahole tar porer ta dekhabe..ar jodi konotao na pare tahole browser defolt ta dekhabe*/
+
+
+
+    font-weight: 700;
+    /* 
+    400=Normal
+    700=Bold
+    */
+
+
+    font-style: italic;
+
+    text-align: center;
+
+    letter-spacing: 0.2em;
+
+    /* 
+    1em = 16px
+    2em = 32px
+    3em = 48px
+    */
+
+    word-spacing: 2em;
+
+
+    text-transform: uppercase;
+
+
+    line-height: 2em;
+
+}
+
+
+p{
+    text-align: justify;
+
+}
+
+ul>li{
+    padding-left: -20px;
+    list-style: square;
+    /* list-style: none; */
+}
+
+li:nth-child(2n+1){
+    /* Using "Even , Odd , Specific Number" */
+    color: brown;
+}
+
+li:nth-child(5){
+    color: aqua;
+}
+
+
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfrom</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 3px solid green;
+        }
+
+        .outer{
+            background-color: cadetblue;
+        }
+
+        .inner{
+            background-color: darkorange;
+            transform: scale(0.7) rotate(20deg);
+            position: relative;
+            left: -5px;
+            text-align: center;
+        }
+
+        .inner p{
+            background-color: aqua;
+
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+    <h1>Transfrom</h1>
+
+    <div class="box outer">
+        <div class="box inner">Box1
+            <p>First Class</p>
+        </div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">Box2
+            <p>Second Class</p>
+        </div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">Box3
+            <p>Third Class</p>
+        </div>
+    </div>
+    
+</body>
+</html>

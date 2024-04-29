@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="">
+        <p>Name:
+            <input type="text" placeholder="Enter Your Name" required >
+        </p>
+
+        <p>Mobile: 
+            <input type="number" placeholder="Enter Your Phone number" required>
+        </p>
+
+        <p>Email: 
+            <input type="email" placeholder="Enter Your Email" required>
+        </p>
+
+        <fieldset>
+            <legend>Select Your Sports</legend>
+
+            <p><label for="football">
+                <input required type="radio" name="Sports" id="football">
+            Football</label></p>
+
+            <p><label for="cricket">
+                    <input type="radio" name="Sports" id="cricket">
+                    Cricket</label></p>
+
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>
+                Select Your Favorite League
+            </legend>
+
+            <p><label for="league">
+                <input required type="checkbox" name="" id="epl">
+                EPL
+            </label>
+            </p>
+
+            <p><label for="league">
+                    <input type="checkbox" name="" id="laliga">
+                    La liga
+                </label>
+            </p>
+        </fieldset>
+
+        <p>
+            Message
+            <textarea required placeholder="message here" name="" id="" cols="30" rows="10"></textarea>
+        </p>
+
+        <button>Submit</button>
+
+    </form>
+
+    
+    <div style="margin-bottom: 500px;"></div>
+</body>
+</html>

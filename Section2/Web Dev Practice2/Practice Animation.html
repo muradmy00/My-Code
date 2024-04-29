@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation pracctice</title>
+    <style>
+        @keyframes ani{
+
+            0%{
+                top: 0px;
+                bottom: 800px;
+                background-color: blue;
+            }
+            50%{
+                right: 200px;
+                background-color: chartreuse;
+            }
+            100%{
+                top: 400px;
+                left: 800px;
+                background-color: darkorange;
+            }
+
+
+        }
+
+        .container{
+            width: 1000px;
+            height: 800px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .container:hover .ball{
+            animation: ani 2s ease 1s infinite alternate;
+        }
+
+        .ball{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            border-radius: 50%;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="ball"></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+
+       .container{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin:  0 auto;
+       } 
+
+       .photo{
+        border: 3px solid peru;
+        border-radius: 20px;
+        margin: 10px;
+        width: 300px;
+       }
+
+       .photo img{
+        width: 100%;
+       }
+
+       .photo p{
+        padding: 10px;
+        font-size: 40px;
+       }
+
+       @media (max-width:760px) {
+        
+        .container{
+            flex-direction: column;
+        }
+
+        .photo p{
+            font-size: 30px;
+            color: crimson;
+        }
+    }
+
+        @media (min-width:1200px) {
+            
+            .container .photo{
+                background-color: chartreuse;
+            }
+        }
+
+
+
+
+
+       
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="photo">
+            <img src="CSS/food.png" alt="food">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ipsum.</p>
+        </div>
+
+        <div class="photo">
+            <img src="CSS/food.png" alt="food">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ipsum.</p>
+        </div>
+
+        <div class="photo">
+            <img src="CSS/food.png" alt="food">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ipsum.</p>
+        </div>
+
+        <div class="photo">
+            <img src="CSS/food.png" alt="food">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ipsum.</p>
+        </div>
+
+        <div class="photo">
+            <img src="CSS/food.png" alt="food">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ipsum.</p>
+        </div>
+
+        <div class="photo">
+            <img src="CSS/food.png" alt="food">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ipsum.</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>

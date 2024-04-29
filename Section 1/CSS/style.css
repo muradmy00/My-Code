@@ -1,0 +1,55 @@
+h1{
+    background-color: blue;
+    color: chartreuse;
+
+    /* Font Size */
+    font-size: 30px;
+
+    /* Font Family */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* Color */
+    /* 
+    1.Color Name
+    2.Hexa Code
+    3.RGB - {Red,Green,Blue}
+    4.RGBA -{Red,Green,Blue,Alpha}
+    5.hsl-{Hue,Saturation,lightness}
+    */
+    color: black;
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.4);
+    color: #000;
+    color: hsl(0, 9, 0);
+
+
+    /*Margin */
+    h1{
+        margin: 25px 50px 75px 100px;
+            /* Top right Bottom left */
+    }
+
+    h1{
+        margin: auto;
+         /* horizontally center the element */
+    }
+
+
+     h1 {
+         margin: 20px       20px;
+         /*  top bottom  right left*/
+     }  
+
+     h1 {
+         margin: 20px;
+         /* all four margins are 20px*/
+     }
+    
+
+     
+
+     
+     
+
+
+}
